@@ -1,0 +1,193 @@
+<!doctype html><html lang="zh-CN"><head><meta charset="utf-8"><title>星澜电商 · 立项前三项核对工作底稿</title><style>
+body{max-width:1000px;margin:40px auto;padding:0 24px;font:15px/1.75 "Microsoft YaHei",sans-serif;color:#29443b;background:#fffdf5}
+h1{font-size:24px;line-height:1.5}h2{font-size:19px;margin-top:8px}h3{font-size:16px;margin-top:28px;color:#2d654f}
+p{margin:8px 0}table{border-collapse:collapse;width:100%;margin:12px 0 18px;font-size:14px}
+td,th{border:1px solid #cbd4bf;padding:9px 10px;text-align:left;vertical-align:top}
+th{background:#eef2e4;font-weight:600}section{margin-bottom:52px}
+blockquote{border-left:4px solid #7a9474;padding-left:18px;margin:14px 0;color:#42604f;background:#f6f8ee;padding:12px 18px}
+code{background:#f1f3e8;padding:1px 5px;border-radius:3px;font-size:13px}
+.tag{display:inline-block;padding:0 6px;border-radius:3px;font-size:12px;white-space:nowrap;line-height:1.7}
+.s-ok{background:#e3efe1;color:#2c5c33;border:1px solid #b7d3b3}
+.s-get{background:#fbe9dc;color:#8a4318;border:1px solid #e6c0a3}
+.s-cfm{background:#fdf0cf;color:#7a5c10;border:1px solid #e6d18f}
+.s-line{background:#e6ecf3;color:#2b4a6b;border:1px solid #b9c9dc}
+.hint{color:#6b7d6a;font-size:13px}
+.warn{background:#fcf1ee;border-left:4px solid #b5614a;padding:12px 18px;color:#7a3b2c;margin:14px 0}
+ol,ul{margin:8px 0 8px 22px;padding:0}li{margin:5px 0}
+.legend td{border:none;padding:3px 12px 3px 0}
+@media print{body{background:#fff;margin:0;max-width:none}section+section{break-before:page}table{font-size:12px}}
+</style></head><body>
+
+<h1>星澜电商 · 立项前三项核对工作底稿</h1>
+<p class="hint">案例：活动热闹，毛利却变少了　|　来源：ecommerce-marketing-01~04（四份可核对资料）+ discovery-report.md（业务需求发现报告）　|　整理时间：2026-11-05</p>
+
+<blockquote><strong>本底稿的性质。</strong>三项任务的答案目前大多<strong>不是</strong>已确认事实，而是"角色陈述 + 待验证假设"。四份资料明确标注为合成训练资料，简报写明"合成训练不代表真实授权、业务执行或客户验收"；发现报告也写明"采集完整不等于真实业务需求已确认""调查覆盖率不代表验收通过"。因此本底稿把每一项拆成<strong>已采陈述 / 待采集 / 待确认 / 硬边界</strong>四种状态，供六岗逐项核对签字，而不是当作立项结论。</blockquote>
+
+<table class="legend"><tr>
+<td><span class="tag s-ok">已采</span></td><td>材料中已有角色陈述或事实编号（f00~f55），仍属合成场景内陈述，非系统实测</td>
+<td><span class="tag s-get">待采集</span></td><td>需向责任岗索取原始记录、样本或数据</td>
+</tr><tr>
+<td><span class="tag s-cfm">待确认</span></td><td>有陈述但口径、责任人、签字人或授权尚未确定</td>
+<td><span class="tag s-line">硬边界</span></td><td>材料明确限定的红线，不可越界、不需再讨论</td>
+</tr></table>
+
+<section>
+<h2>任务一 · 识别业务机会</h2>
+
+<h3>1.1 最近一次异常事件：采集卡</h3>
+
+<div class="warn"><strong>先说结论：目前没有一份完整、可核对的"最近一次异常事件"记录。</strong>四份资料里，简报写"调查样本：星澜电商的一次具体事件"，资料 04 六个角色全部标注"现场问题：具体事件待访谈核实"，资料 02 把全部条目列为"待索取资料"。现有最接近事件描述的是林亦舟的口头陈述 <code>f11</code>，但没有事件编号、发生时间、业务编号、规则版本、订单号、涉及金额和处理结果。也就是说，"收集最近一次异常事件"这一步<strong>尚未完成</strong>，下表是应补采的字段清单。</div>
+
+<table>
+<thead><tr><th style="width:16%">事件字段</th><th style="width:32%">材料中已有的内容</th><th style="width:12%">状态</th><th style="width:40%">采集动作 / 责任岗 / 依据</th></tr></thead>
+<tbody>
+<tr><td>事件编号与发生时间</td><td>无</td><td><span class="tag s-get">待采集</span></td><td>向林亦舟索取"最近一次处理记录"，记录日期与样本时间窗（资料 02）</td></tr>
+<tr><td>业务编号与资料版本</td><td>仅知要求：交接须含业务编号、当前版本（<code>f23</code>）；反馈须关联原业务编号与当时版本（<code>f54</code>）</td><td><span class="tag s-get">待采集</span></td><td>由唐映秋提供该事件对应的规则版本与适用日期（<code>f21</code> <code>f24</code>）</td></tr>
+<tr><td>关联活动与叠加规则</td><td>满减、券和补贴叠加，人工只检查正常购物车（<code>f10</code>）</td><td><span class="tag s-ok">已采</span></td><td>补：该单实际叠加了哪几层规则、优惠优先级（<code>f21</code>）</td></tr>
+<tr><td>异常描述</td><td>退款拆单后门槛重算逻辑不清，出现优惠超过商品金额的例外（<code>f11</code>）</td><td><span class="tag s-ok">已采</span></td><td>这是唯一明确的异常类型；也是审计强制转人工触发条件（<code>f44</code>）、负应付风险直接来源</td></tr>
+<tr><td>发现途径</td><td>异常单往往到分拣或顾客反馈才暴露（访谈 r1）；关键说明留在个人便签或群里、未随单据交接（<code>f14</code>）</td><td><span class="tag s-ok">已采</span></td><td>补：本单实际在哪一环被发现、便签/群说明原件是否可取得</td></tr>
+<tr><td>涉及订单 / SKU 数</td><td>无（仅知每月 24 场、每场约 600 SKU 的工作量基线 <code>f12</code>）</td><td><span class="tag s-get">待采集</span></td><td>由秦芮从价格引擎、经营分析库按业务编号导出（<code>f30</code>）</td></tr>
+<tr><td>实际影响金额 / 负应付</td><td>无。仅有验收目标"负应付金额为零"（<code>f02</code> <code>f42</code>）</td><td><span class="tag s-get">待采集</span></td><td>REQ-2 明确"该例外的发生频次与涉及金额尚无统计，需补采"</td></tr>
+<tr><td>处理过程与交接记录</td><td>仅知要求：建议须显示原记录与待确认字段、错误结果不得覆盖原记录（<code>f15</code>）；转人工须标注触发原因、接手人、确认时间（<code>f44</code>）</td><td><span class="tag s-get">待采集</span></td><td>向唐映秋索取该单的交接与分派记录（<code>f23</code> <code>f25</code>）</td></tr>
+<tr><td>毛利影响归属</td><td>补贴承担方缺字段、毛利未纳入退货和运费（<code>f31</code>）</td><td><span class="tag s-get">待采集</span></td><td>当前无法计算该单对毛利的真实影响，须先补字段（REQ-3 / REQ-4）</td></tr>
+</tbody></table>
+
+<p class="hint">采集依据：资料 02 要求每份资料补记"名称／来源人／版本／样本时间窗／权限／已取得或待补／与角色陈述的差异"；并要求"核对其原话与实际过程"。目前这 7 项补记全部为空。</p>
+
+<h3>1.2 客户提出的"功能" 与 真正要改善的业务结果</h3>
+
+<p>简报里客户说的是<strong>手段</strong>（"希望用 AI 改善"）和<strong>现象</strong>（叠加规则、只查正常购物车），不是可验收的业务结果。业务结果只在顾明岚的访谈里出现（<code>f00</code>），且口径本身尚未确认。把两者分开，是这项任务最关键的一步：</p>
+
+<table>
+<thead><tr><th style="width:30%">客户表述 / 隐含功能假设</th><th style="width:34%">真正要改善的业务结果</th><th style="width:22%">可验证指标（现有口径）</th><th style="width:14%">状态</th></tr></thead>
+<tbody>
+<tr><td>"管理层希望用 AI 改善"（简报）</td><td>降低促销规则错误、缩短复盘交付 —— 而不是"上一个 AI 功能"</td><td>规则错误每月 14 次压到 2 次；复盘出报告 7 天缩到 2 天（<code>f00</code>）</td><td><span class="tag s-cfm">待确认</span>：错误按配置错误还是执行偏差统计？2 天指初稿还是可决策版本？</td></tr>
+<tr><td>"满减、券和补贴叠加，人工只检查正常购物车"（简报）→ 隐含"让系统自动检查所有购物车 / 自动改价"</td><td>让异常与极端购物车被识别并兜底，且不产生资金损失</td><td>两场活动离线回放、极端购物车覆盖 100%、负应付金额为零（<code>f02</code> <code>f42</code>）</td><td><span class="tag s-get">待采集</span>：样本由谁提供、100% 如何核验、谁签字</td></tr>
+<tr><td>"投入了很多人力"→ 隐含"减人 / 省工时"</td><td>缩短规则核对与异常返工时间；但收益须扣维护与人工复核成本</td><td>每月 24 场 × 每场 600 SKU × 核对 2 人天（<code>f12</code> <code>f51</code>），仅为工作量基线</td><td><span class="tag s-line">硬边界</span>：不能把节省工时直接当现金回款（<code>f03</code>），基线非收益测算依据</td></tr>
+<tr><td>案例标题"活动热闹，毛利却变少了"</td><td>让毛利能被正确计算与解释，复盘可归因</td><td>运营看成交额、商家看毛利、财务看扣补贴退款后收益（<code>f50</code>）；固定分母、排除规则与统计周期（<code>f53</code>）</td><td><span class="tag s-get">待采集</span>：毛利未含退货与运费、补贴承担方缺字段（<code>f31</code>），当前算不出</td></tr>
+<tr><td>隐含"AI 直接放行 / 拦截"</td><td>不是业务结果，而是被明确排除的动作</td><td>范围仅"规则检查与复盘解释，不自动改价或发放资金"（<code>f05</code> <code>f52</code> <code>f32</code>）</td><td><span class="tag s-line">硬边界</span></td></tr>
+</tbody></table>
+
+<blockquote><strong>机会识别的判断。</strong>客户把"用 AI"当需求，但可立项的机会是把手段翻译成四类结果：① 规则错误率下降 ② 复盘交付提速 ③ 负应付为零（资金安全）④ 毛利可计算、可归因。其中 ①②的验收口径未定、③ 的样本与签字人未定、④ 的字段缺失 —— 所以在补齐这些之前，任何"功能清单"都不构成可验证的业务需求。</blockquote>
+
+<h3>1.3 机会排序（按不可逆风险，来自发现报告）</h3>
+<table>
+<thead><tr><th style="width:8%">序</th><th style="width:38%">候选机会</th><th style="width:14%">优先级</th><th style="width:40%">为何排在此位 / 前置条件</th></tr></thead>
+<tbody>
+<tr><td>1</td><td>规则检查与复盘解释作为首期唯一试点，先离线回放后小范围并行</td><td>REQ-1 / P0</td><td>全程不触碰写操作，可拦截、可恢复；前置：两场历史活动规则版本与购物车样本清单</td></tr>
+<tr><td>2</td><td>退款拆单门槛重算与优惠超商品金额</td><td>REQ-2 / P0</td><td>负应付金额的直接来源；前置：统计近两场例外笔数与金额</td></tr>
+<tr><td>3</td><td>复盘多口径视图</td><td>REQ-3 / P1</td><td>并行前置条件，口径不统一则复盘解释失真</td></tr>
+<tr><td>4</td><td>数据质量闸门（歧义记录进人工修复队列）</td><td>REQ-4 / P1</td><td>先于任何自动推荐</td></tr>
+<tr><td>5</td><td>人工兜底交接单（接手人 / 时限 / 升级）</td><td>REQ-5 / P1</td><td>否则审计不可重建</td></tr>
+<tr><td>6</td><td>审计留痕与留存期限（90 天为暂定值）</td><td>REQ-6 / P2</td><td>留痕字段可先定，真实期限属组织规则、当前无事实支撑</td></tr>
+</tbody></table>
+<p class="hint">发现报告明确提醒：P0/P1/P2 是候选排序，<strong>不等于已完成价值／风险评分</strong>，仍须用"业务结果与不可逆风险矩阵"比较。</p>
+</section>
+
+<section>
+<h2>任务二 · 建立现状基线</h2>
+
+<h3>2.1 指标定义表（分子 / 分母 / 时间窗 / 样本来源 / 测量责任人）</h3>
+
+<table>
+<thead><tr><th style="width:14%">指标</th><th style="width:13%">分子</th><th style="width:14%">分母</th><th style="width:11%">时间窗</th><th style="width:16%">样本来源</th><th style="width:16%">测量责任人</th><th style="width:16%">现有可得值 / 状态</th></tr></thead>
+<tbody>
+<tr><td><strong>促销规则错误率</strong><br><code>f00</code></td><td>经确认的规则错误次数</td><td><span class="tag s-cfm">待确认</span>：按活动场次（24/月）、SKU（600/场）还是规则配置单？</td><td>自然月</td><td><span class="tag s-get">待采集</span>：活动平台规则配置记录 + 异常台账</td><td><span class="tag s-cfm">待确认</span>：口径由顾明岚裁定；逐笔核对建议唐映秋</td><td>14 次/月 → 目标 2 次，仅口头陈述，<strong>未经样本验证</strong>；错误口径未定</td></tr>
+<tr><td><strong>复盘报告交付时长</strong><br><code>f00</code></td><td>从复盘启动到报告交付的耗时</td><td>复盘报告数（按活动计）</td><td><span class="tag s-cfm">待确认</span>：每场还是每月</td><td><span class="tag s-get">待采集</span>：复盘报告流转 / 签发记录</td><td><span class="tag s-cfm">待确认</span>：顾明岚（目标）、唐映秋（版本）</td><td>7 天 → 目标 2 天；<strong>2 天指初稿还是可决策版本未定</strong>，起止点未定义</td></tr>
+<tr><td><strong>负应付金额</strong><br><code>f02</code> <code>f42</code></td><td>出现负应付的订单数 / 金额（目标为 0）</td><td>参与回放的极端购物车样本总数，要求覆盖 100%</td><td>两场历史活动离线回放</td><td><span class="tag s-get">待采集</span>：唐映秋提供规则版本 + 购物车样本清单</td><td><span class="tag s-cfm">待确认</span>：样本提供人、100% 核验方法、负应付为零的签字人（报告点名傅景确认签字人）</td><td>只有验收目标"为零"，<strong>无实测基线</strong></td></tr>
+<tr><td><strong>退款拆单门槛重算例外</strong><br><code>f11</code> <code>f44</code></td><td>例外笔数（优惠超商品金额）</td><td>退款拆单订单数</td><td>近两场活动</td><td><span class="tag s-get">待采集</span>：价格引擎试算 / 退款事件记录</td><td>唐映秋逐条复算、傅景确认是否触及停止条件</td><td><span class="tag s-get">待采集</span>：报告明确"发生频次与涉及金额尚无统计"</td></tr>
+<tr><td><strong>规则核对工作量</strong><br><code>f12</code> <code>f51</code></td><td>核对投入人天</td><td>活动场次 × 每场 SKU（24 场/月 × 约 600 SKU）</td><td>自然月</td><td><span class="tag s-get">待采集</span>：现场排班 / 工时记录</td><td>林亦舟提供、叶书服务侧采集</td><td>2 人天。<span class="tag s-line">硬边界</span>：仅工作量基线，<strong>非收益测算依据</strong></td></tr>
+<tr><td><strong>交接等待与重新联系次数</strong><br><code>f51</code> <code>f53</code></td><td>逐笔交接等待时长 / 重新联系次数；须分别记录各岗完成时间</td><td><span class="tag s-cfm">待确认</span>：固定分母，按活动、SKU 还是商家反馈单？</td><td><span class="tag s-cfm">待确认</span>：统计周期须固定</td><td><span class="tag s-get">待采集</span>：交接记录，须关联原业务编号与当时版本（<code>f54</code>）</td><td>叶书（服务侧逐笔采集）</td><td><span class="tag s-line">硬边界</span>：不得用发送通知数量代替实际完成量；不得把同一业务拆成多次"成功"提高比例</td></tr>
+<tr><td><strong>三口径收益</strong><br><code>f50</code> <code>f31</code></td><td>成交额 / 毛利 / 扣补贴退款后收益，各自定义</td><td>各口径分母待定，须固定</td><td><span class="tag s-cfm">待确认</span></td><td><span class="tag s-get">待采集</span>：经营分析库 + 活动平台 + 价格引擎（<code>f30</code>）</td><td>秦芮列字段与来源系统、叶书确认商家侧口径、顾明岚裁定主口径</td><td><span class="tag s-get">待采集</span>：毛利未纳入退货与运费、补贴承担方缺字段，<strong>当前不可计算</strong></td></tr>
+<tr><td><strong>主流程节点耗时</strong><br><code>f01</code></td><td>各节点等待 / 处理时长</td><td>活动场次</td><td><span class="tag s-cfm">待确认</span></td><td><span class="tag s-get">待采集</span>：流程流转日志（规划→配置→报名→试算→上线审核→复盘）</td><td><span class="tag s-cfm">待确认</span>：秦芮与唐映秋对齐数据口径</td><td><span class="tag s-get">待采集</span>：管理层"还没有分别量出每个节点的等待和处理时间"，因此瓶颈与试点落点无法确定</td></tr>
+</tbody></table>
+
+<h3>2.2 待采集数据清单</h3>
+<table>
+<thead><tr><th style="width:6%">序</th><th style="width:30%">数据项</th><th style="width:24%">用途（关联指标）</th><th style="width:22%">来源系统 / 记录</th><th style="width:18%">提供责任岗</th></tr></thead>
+<tbody>
+<tr><td>1</td><td>错误统计口径定义 + 报告交付定义</td><td>规则错误率、复盘时长</td><td>书面口径文件（目前不存在）</td><td>顾明岚 <span class="tag s-cfm">待确认</span></td></tr>
+<tr><td>2</td><td>两场历史活动的规则版本与购物车样本清单</td><td>负应付金额、离线回放</td><td>价格规则资料（<code>f21</code>）</td><td>唐映秋</td></tr>
+<tr><td>3</td><td>近两场退款拆单例外笔数与金额</td><td>退款拆单例外</td><td>价格引擎 / 退款事件</td><td>唐映秋 + 秦芮</td></tr>
+<tr><td>4</td><td>主流程六节点等待与处理时长</td><td>节点耗时、试点落点</td><td>流程流转日志</td><td>秦芮 + 唐映秋</td></tr>
+<tr><td>5</td><td>字段清单草案与来源系统对照表（含补贴承担方）</td><td>三口径收益、数据闸门</td><td>活动平台 / 价格引擎 / 经营分析库（<code>f30</code>）</td><td>秦芮</td></tr>
+<tr><td>6</td><td>退货与运费纳入毛利的计算口径</td><td>三口径收益</td><td>经营分析库（<code>f31</code>）</td><td>秦芮 + 叶书</td></tr>
+<tr><td>7</td><td>逐笔交接等待与重新联系次数（关联业务编号与版本）</td><td>交接指标</td><td>交接记录（<code>f23</code> <code>f54</code>）</td><td>叶书 + 唐映秋</td></tr>
+<tr><td>8</td><td>现场规则核对工时记录</td><td>核对工作量</td><td>排班 / 工时记录（<code>f12</code>）</td><td>林亦舟</td></tr>
+</tbody></table>
+
+<h3>2.3 基线的四条硬约束</h3>
+<ol>
+<li><strong>固定分母、排除规则与统计周期，不得把同一业务拆成多次"成功"提高比例</strong>（<code>f53</code>）；须分别记录各岗完成时间。</li>
+<li><strong>不得用发送通知数量代替实际完成量</strong>（<code>f51</code>）；服务侧按逐笔采集交接等待和重新联系次数。</li>
+<li><strong>基线须按样本验证</strong>（资料 01 / 02："记录本场景的时效、返工和复核成本，基线须按样本验证"）。24 场 / 600 SKU / 2 人天是工作量基线，不是收益测算依据。</li>
+<li><strong>收益必须扣除维护及人工复核成本</strong>，不能把全部节省工时当作现金回款（<code>f03</code>）；22 万预算在集成 / 培训 / 验证间的切分、人工复核成本折算口径均<span class="tag s-cfm">待确认</span>，尚未形成可验证的收益模型。</li>
+</ol>
+
+<div class="warn"><strong>不能直接当基线用的东西：</strong>发现报告的"调查覆盖 36/36（100%）"是<strong>事实条目覆盖率</strong>，不是指标基线，也不代表验收通过；<code>f00</code> 的 14 次 / 7 天是角色陈述的目标基线，未经样本验证；<code>f02</code> 的"负应付金额为零"是验收目标而非现状值。</div>
+</section>
+
+<section>
+<h2>任务三 · 确认立项与决策链</h2>
+
+<h3>3.1 四类角色矩阵</h3>
+<table>
+<thead><tr><th style="width:13%">角色</th><th style="width:17%">人选 / 岗位</th><th style="width:26%">依据</th><th style="width:24%">权限边界</th><th style="width:20%">待确认事项</th></tr></thead>
+<tbody>
+<tr><td><strong>业务发起人</strong></td><td>顾明岚 · 营销运营总监</td><td>立项由营销运营总监推动（<code>f04</code>）；提出目标、预算与首期范围（<code>f00</code> <code>f03</code> <code>f05</code>）；每周反馈由其确认改进负责人（<code>f55</code>）</td><td>能决定试点范围与资源投入；<strong>不能替审计侧做风险判断</strong>（访谈 r0）</td><td><span class="tag s-cfm">待确认</span>：书面立项文件、目标与预算的正式确认（发现报告四来源核对：Buyer 仍是"已采集角色陈述，目标和预算仍待确认"）</td></tr>
+<tr><td><strong>使用者</strong></td><td>林亦舟（活动执行员）、唐映秋（价格规则专员）、秦芮（营销数据工程师）为主；叶书（商家经营代表）为下游使用与反馈方</td><td>六岗事实 <code>f10</code>~<code>f55</code>；每周误判例子的收集对象为执行员 / 价格规则专员 / 商家经营代表三方（<code>f55</code>）</td><td>唐映秋可整理、校核、发起复核，<strong>不能代替审计经理签核</strong>（<code>f22</code>）；一线建议须显示原记录，错误结果不得覆盖原记录（<code>f15</code>）</td><td><span class="tag s-cfm">待确认</span>：实际使用者名单、系统账号与授权范围（<code>f30</code> <code>f41</code>）；现场操作观察尚未做</td></tr>
+<tr><td><strong>出资者</strong></td><td>顾明岚（首期可用预算 22 万元，含集成、培训与验证，<code>f03</code>）</td><td>访谈 r0：预算内能决定试点范围和资源投入</td><td><strong>超出预算部分要走审批，不在其权限内</strong>（访谈 r0）</td><td><span class="tag s-cfm">待确认</span>：22 万在集成 / 培训 / 验证间如何切分；人工复核成本折算口径；真实出资主体与最终预算批准人</td></tr>
+<tr><td><strong>审批 / 否决者</strong></td><td>傅景 · 交易审计经理（关键风险可否决上线）；叶书参与服务结果验收（<code>f04</code>）</td><td>促销上线、补贴资金和消费者争议由授权人员审核（<code>f40</code>）；规则冲突附两个版本交傅景裁决、不自行合并（<code>f24</code>）；触及停止条件暂停试点（<code>f42</code>）</td><td>授权人员名单未列；不能借用他人账号（<code>f41</code>）；AI 只能辅助提示，不能替代审核</td><td><span class="tag s-cfm">待确认</span>："授权人员"具体名单、签核单据、负应付为零的签字人、停止条件的批准人</td></tr>
+<tr><td><strong>验收参与</strong></td><td>顾明岚（两条硬线）+ 傅景（同时检查授权审核）+ 叶书（服务结果验收）</td><td><code>f02</code> <code>f42</code> <code>f04</code></td><td>验收口径 ≠ 业务目标达成（<code>f00</code> 的目标仍需口径确认）</td><td><span class="tag s-cfm">待确认</span>：极端购物车样本提供人、100% 核验方法、书面签字流程</td></tr>
+</tbody></table>
+
+<h3>3.2 决策链顺序与否决点</h3>
+<ol>
+<li><strong>立项</strong>：顾明岚推动，确定范围与预算（<code>f04</code> <code>f03</code>）→ <em>傅景可因关键风险否决上线</em></li>
+<li><strong>规则与资料准备</strong>：唐映秋提供规则版本、购物车样本、输入输出与待办责任人（<code>f20</code> <code>f21</code> <code>f24</code>）</li>
+<li><strong>数据与接口</strong>：秦芮列字段清单、来源系统、修复队列（<code>f30</code> <code>f31</code> <code>f33</code>），仅可读与离线试算（<code>f32</code>）</li>
+<li><strong>试点执行</strong>：两场历史活动离线回放 → 逐条比对，异常由唐映秋分派实际处理人、超时升级顾明岚（<code>f25</code>）</li>
+<li><strong>审核与验收</strong>：傅景检查授权审核与停止条件（<code>f42</code>），叶书参与服务结果验收（<code>f04</code>）</li>
+<li><strong>改进闭环</strong>：每周收集三方误判与未解决问题，顾明岚确认改进负责人；<strong>先复测验收硬线，再更新规则版本</strong>（<code>f55</code>）</li>
+</ol>
+<p class="hint">停止条件：只要触及，即暂停试点并由负责人复盘（<code>f42</code>）。复测不通过时规则版本是否冻结、由谁对外解释，尚未核实（<code>f55</code> 访谈）。</p>
+
+<h3>3.3 访谈授权状态</h3>
+<table>
+<thead><tr><th style="width:28%">授权 / 依据项</th><th style="width:14%">状态</th><th style="width:58%">说明</th></tr></thead>
+<tbody>
+<tr><td>六角色事实采集</td><td><span class="tag s-ok">已采</span></td><td>发现报告记录 36/36 事实、六岗访谈记录（2026-11-05 05:36~05:41，合成场景）</td></tr>
+<tr><td>书面访谈授权 / 受访同意</td><td><span class="tag s-get">待采集</span></td><td>四份资料均无授权文件；资料 01 明确"合成训练不代表真实授权、业务执行或客户验收"</td></tr>
+<tr><td>书面 Brief 原文与版本</td><td><span class="tag s-get">待采集</span></td><td>四来源核对：Brief 状态为"当前只有场景开场；书面 Brief 原文与版本待补；已采集依据：暂无"</td></tr>
+<tr><td>行业可行性证据（Industry）</td><td><span class="tag s-get">待采集</span></td><td>四来源核对：待补行业实践与本项目适用性验证；已采集依据：暂无</td></tr>
+<tr><td>业务日志 / 制度 / 真实观察交叉验证</td><td><span class="tag s-get">待采集</span></td><td>"证据缺口"章节明确：角色事实已采集，下一步应使用业务日志、制度和真实观察交叉验证</td></tr>
+<tr><td>资料访问授权</td><td><span class="tag s-line">硬边界</span></td><td>只有授权业务岗位可查看活动规则、优惠优先级、购物车样本、成本与退款事件；不得借用他人账号（<code>f41</code>）；账号权限各自独立维护（<code>f30</code>）</td></tr>
+<tr><td>每份资料的授权补记</td><td><span class="tag s-get">待采集</span></td><td>资料 02 要求记录"名称／来源人／版本／样本时间窗／权限／已取得或待补／与角色陈述的差异"，"实际持有人、版本和权限需访谈确认"，目前为空</td></tr>
+</tbody></table>
+
+<h3>3.4 调查边界（红线清单）</h3>
+<table>
+<thead><tr><th style="width:26%">边界</th><th style="width:54%">内容</th><th style="width:20%">依据</th></tr></thead>
+<tbody>
+<tr><td>范围边界</td><td>只读核对与人工交接；仅"规则检查与复盘解释"，不自动改价、不发放资金、不自动发布活动或调整线上价格</td><td>资料 01、<code>f05</code> <code>f52</code> <code>f32</code></td></tr>
+<tr><td>首期方式</td><td>历史资料离线回放 → 小范围并行试点，不直接替换现有业务；是否含线上灰度<span class="tag s-cfm">待确认</span></td><td><code>f05</code> <code>f02</code></td></tr>
+<tr><td>审批红线</td><td>促销上线、补贴资金、消费者争议由授权人员审核；涉及最终决定、对外承诺或资产变更须对应审批人确认</td><td><code>f40</code> <code>f41</code></td></tr>
+<tr><td>数据红线</td><td>歧义记录进人工修复队列、不进自动推荐样本；先校验主编号、事件时间、版本字段</td><td><code>f33</code></td></tr>
+<tr><td>兜底红线</td><td>退款拆单重算不清 / 资料缺依据 / 两版本冲突 / 关键系统不可用 → 转人工，须标注触发原因、接手人、确认时间</td><td><code>f44</code> <code>f15</code> <code>f25</code></td></tr>
+<tr><td>留痕与留存</td><td>每次建议保留业务编号、资料版本、事实引用、建议结果、人工改动、签核人，可重建全流程；不记录账号口令或不必要的个人信息。评价记录暂留 90 天，期满由傅景复核删除或归档</td><td><code>f45</code> <code>f43</code></td></tr>
+<tr><td>资料效力</td><td>四份资料为原创合成案例，上述诉求尚不等于确认需求；不预设根因、预算或承诺收益；不能替其他角色确认权限或业务事实</td><td>资料 01 / 04</td></tr>
+</tbody></table>
+</section>
+
+<section>
+<h2>使用说明 · 下一步怎么核</h2>
+<ol>
+<li>本底稿可打印或另存 PDF，按三个任务分别交对应责任岗逐行核对，在"待采集 / 待确认"行补上数值、口径、签字人。</li>
+<li><strong>优先补三件事</strong>：① 资料 02 的结构化业务记录（任务一最关键的缺口）② 口径定义（错误统计与报告交付）③ 书面立项授权与审批名单。</li>
+<li>补齐后再用发现报告里的三个框架做收敛：业务流程拆解、业务结果与不可逆风险矩阵、四来源收敛（Buyer / Operator / Brief / Industry）。</li>
+<li>全程守住"不写操作"红线：首期只做离线回放与复盘解释。</li>
+</ol>
+<p class="hint">方法来源：fde-simulation 的 workflow-decomposition、outcome-risk-matrix、4-source-convergence 框架；证据编号 f00~f55 及 REQ-1~6 见 discovery-report.md。</p>
+</section>
+
+</body></html>
