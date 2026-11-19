@@ -1,0 +1,10 @@
+# ===== 全局配置：所有环境相关信息均外置于此，代码不写死（代码规范硬约束） =====
+app:
+  name: promo-replay             # 服务名称，用于日志与接口返回
+  db_path: data/replay.db        # 自有 SQLite：存放回放记录、审计留痕、修复队列
+data:
+  snapshots_dir: data/snapshots  # 两场历史活动的脱敏快照目录（外部提供，只读接入）
+  sample_dir: data/sample        # M1 先行使用的脱敏样例数据目录（已拍板）
+model:
+  base_url: ""                   # OpenAI 兼容协议模型地址（禁止写死，留空待配置）
+  api_key_env: PROMO_MODEL_KEY   # 模型 key 的环境变量名，代码只读环境变量、不落盘

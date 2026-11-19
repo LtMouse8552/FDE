@@ -1,0 +1,18 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# 运行期自有库与临时产物（脱敏样例快照保留，回放库不入库）
+data/replay.db
+*.log
+
+# IDE
+.idea/
+.vscode/
+
+# 内嵌仓库与内部状态（docs 为独立 git 仓库；业务发现材料未脱敏，按红线不外推）
+docs/
+.atomcode/
+.workbuddy/

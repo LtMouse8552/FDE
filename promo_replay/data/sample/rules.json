@@ -1,0 +1,7 @@
+{
+  "rule_version": "R-2026-11-a",
+  "threshold_promos": [
+    {"promo_id": "TH-300-50", "threshold": 300.00, "discount": 50.00, "refund_policy": "proportional"}
+  ],
+  "notes": "脱敏规则版本样例；refund_policy 支持 proportional（按比例回退）/ full（全额回退），口径歧义时不臆造、标注待人工确认"
+}

@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1240 760" width="100%" role="img">
+<title>星澜电商 促销规则与活动复盘 人工现状泳道图</title>
+<desc>六阶段 × 六角色泳道，15 个步骤，含判断菱形、异常分支与不可逆边界</desc>
+<defs>
+<marker id="a" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M2 1L8 5L2 9" fill="none" stroke="#7d948b" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></marker>
+<marker id="ar" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M2 1L8 5L2 9" fill="none" stroke="#A32D2D" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></marker>
+<marker id="ap" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M2 1L8 5L2 9" fill="none" stroke="#534AB7" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></marker>
+</defs>
+<rect x="0" y="0" width="1240" height="760" fill="#fffdf5"/>
+<rect x="20" y="30" width="130" height="36" fill="#e8ede3" stroke="#c4ccc0" stroke-width="0.5"/>
+<text x="30" y="53" font-size="11.5" font-weight="500" fill="#243430">泳道 / 阶段</text>
+<rect x="150" y="30" width="180" height="36" fill="#e8ede3" stroke="#c4ccc0" stroke-width="0.5"/>
+<text x="240" y="53" text-anchor="middle" font-size="12.5" font-weight="500" fill="#243430">1 活动规划</text>
+<rect x="330" y="30" width="180" height="36" fill="#e8ede3" stroke="#c4ccc0" stroke-width="0.5"/>
+<text x="420" y="53" text-anchor="middle" font-size="12.5" font-weight="500" fill="#243430">2 规则配置</text>
+<rect x="510" y="30" width="180" height="36" fill="#e8ede3" stroke="#c4ccc0" stroke-width="0.5"/>
+<text x="600" y="53" text-anchor="middle" font-size="12.5" font-weight="500" fill="#243430">3 商品报名</text>
+<rect x="690" y="30" width="180" height="36" fill="#e8ede3" stroke="#c4ccc0" stroke-width="0.5"/>
+<text x="780" y="53" text-anchor="middle" font-size="12.5" font-weight="500" fill="#243430">4 试算</text>
+<rect x="870" y="30" width="180" height="36" fill="#e8ede3" stroke="#c4ccc0" stroke-width="0.5"/>
+<text x="960" y="53" text-anchor="middle" font-size="12.5" font-weight="500" fill="#243430">5 上线审核</text>
+<rect x="1050" y="30" width="180" height="36" fill="#e8ede3" stroke="#c4ccc0" stroke-width="0.5"/>
+<text x="1140" y="53" text-anchor="middle" font-size="12.5" font-weight="500" fill="#243430">6 复盘</text>
+<rect x="20" y="66" width="1210" height="92" fill="#f2f1ea" stroke="#c4ccc0" stroke-width="0.5"/>
+<rect x="20" y="66" width="6" height="92" fill="#6b8a7e"/>
+<text x="34" y="104" font-size="12.5" font-weight="500" fill="#243430">顾明岚</text>
+<text x="34" y="124" font-size="11" fill="#5F6E5A">营销运营总监</text>
+<rect x="20" y="158" width="1210" height="92" fill="#faf9f4" stroke="#c4ccc0" stroke-width="0.5"/>
+<rect x="20" y="158" width="6" height="92" fill="#6b8a7e"/>
+<text x="34" y="196" font-size="12.5" font-weight="500" fill="#243430">唐映秋</text>
+<text x="34" y="216" font-size="11" fill="#5F6E5A">价格规则专员</text>
+<rect x="20" y="250" width="1210" height="92" fill="#f2f1ea" stroke="#c4ccc0" stroke-width="0.5"/>
+<rect x="20" y="250" width="6" height="92" fill="#6b8a7e"/>
+<text x="34" y="288" font-size="12.5" font-weight="500" fill="#243430">林亦舟</text>
+<text x="34" y="308" font-size="11" fill="#5F6E5A">活动执行员</text>
+<rect x="20" y="342" width="1210" height="92" fill="#faf9f4" stroke="#c4ccc0" stroke-width="0.5"/>
+<rect x="20" y="342" width="6" height="92" fill="#6b8a7e"/>
+<text x="34" y="380" font-size="12.5" font-weight="500" fill="#243430">秦芮</text>
+<text x="34" y="400" font-size="11" fill="#5F6E5A">营销数据工程师</text>
+<rect x="20" y="434" width="1210" height="92" fill="#f2f1ea" stroke="#c4ccc0" stroke-width="0.5"/>
+<rect x="20" y="434" width="6" height="92" fill="#6b8a7e"/>
+<text x="34" y="472" font-size="12.5" font-weight="500" fill="#243430">傅景</text>
+<text x="34" y="492" font-size="11" fill="#5F6E5A">交易审计经理</text>
+<rect x="20" y="526" width="1210" height="92" fill="#faf9f4" stroke="#c4ccc0" stroke-width="0.5"/>
+<rect x="20" y="526" width="6" height="92" fill="#6b8a7e"/>
+<text x="34" y="564" font-size="12.5" font-weight="500" fill="#243430">叶书</text>
+<text x="34" y="584" font-size="11" fill="#5F6E5A">商家经营代表</text>
+<line x1="330" y1="66" x2="330" y2="618" stroke="#d8e0cf" stroke-width="0.8"/>
+<line x1="510" y1="66" x2="510" y2="618" stroke="#d8e0cf" stroke-width="0.8"/>
+<line x1="690" y1="66" x2="690" y2="618" stroke="#d8e0cf" stroke-width="0.8"/>
+<line x1="870" y1="66" x2="870" y2="618" stroke="#d8e0cf" stroke-width="0.8"/>
+<line x1="1050" y1="66" x2="1050" y2="618" stroke="#d8e0cf" stroke-width="0.8"/>
+<line x1="240" y1="112" x2="240" y2="204" stroke="#7d948b" stroke-width="1.4" marker-end="url(#a)"/>
+<line x1="240" y1="204" x2="420" y2="204" stroke="#7d948b" stroke-width="1.4" marker-end="url(#a)"/>
+<line x1="420" y1="204" x2="420" y2="480" stroke="#7d948b" stroke-width="1.4" marker-end="url(#a)"/>
+<line x1="420" y1="480" x2="600" y2="204" stroke="#7d948b" stroke-width="1.4" marker-end="url(#a)"/>
+<line x1="600" y1="204" x2="600" y2="296" stroke="#7d948b" stroke-width="1.4" marker-end="url(#a)"/>
+<line x1="600" y1="296" x2="780" y2="388" stroke="#7d948b" stroke-width="1.4" marker-end="url(#a)"/>
+<line x1="780" y1="388" x2="780" y2="296" stroke="#7d948b" stroke-width="1.4" marker-end="url(#a)"/>
+<line x1="780" y1="296" x2="960" y2="296" stroke="#A32D2D" stroke-width="1.4" marker-end="url(#ar)"/>
+<line x1="960" y1="296" x2="960" y2="204" stroke="#7d948b" stroke-width="1.4" marker-end="url(#a)"/>
+<line x1="960" y1="204" x2="960" y2="480" stroke="#7d948b" stroke-width="1.4" marker-end="url(#a)"/>
+<line x1="960" y1="480" x2="960" y2="112" stroke="#7d948b" stroke-width="1.4" marker-end="url(#a)"/>
+<rect x="933.0" y="287.0" width="54" height="17" rx="3" fill="#f1f4fa" stroke="#c4ccc0" stroke-width="0.5"/>
+<text x="960.0" y="299.0" text-anchor="middle" font-size="11" fill="#243430">授权通过</text>
+<line x1="960" y1="112" x2="1140" y2="388" stroke="#7d948b" stroke-width="1.4" marker-end="url(#a)"/>
+<line x1="1140" y1="388" x2="1140" y2="112" stroke="#7d948b" stroke-width="1.4" marker-end="url(#a)"/>
+<line x1="1140" y1="112" x2="1140" y2="572" stroke="#7d948b" stroke-width="1.4" marker-end="url(#a)"/>
+<path d="M982 174 L982 266" fill="none" stroke="#A32D2D" stroke-width="1.4" stroke-dasharray="5,4" marker-end="url(#ar)"/>
+<rect x="933.0" y="211.0" width="98" height="17" rx="3" fill="#f7f6f1" stroke="#c4ccc0" stroke-width="0.5"/>
+<text x="982.0" y="223.0" text-anchor="middle" font-size="11" fill="#A32D2D">不通过 · 停止</text>
+<path d="M936 508 L936 324" fill="none" stroke="#A32D2D" stroke-width="1.4" stroke-dasharray="5,4" marker-end="url(#ar)"/>
+<rect x="892.5" y="407.0" width="87" height="17" rx="3" fill="#f7f6f1" stroke="#c4ccc0" stroke-width="0.5"/>
+<text x="936.0" y="419.0" text-anchor="middle" font-size="11" fill="#A32D2D">否决 / 停止</text>
+<path d="M1140 612 L1140 626 L170 626 L170 244 L240 244" fill="none" stroke="#534AB7" stroke-width="1.4" stroke-dasharray="5,4" marker-end="url(#ap)"/>
+<rect x="960" y="618" width="250" height="17" rx="3" fill="#f7f6f1" stroke="#c4ccc0" stroke-width="0.5"/>
+<text x="1085" y="630" text-anchor="middle" font-size="11" fill="#534AB7">每周复测后更新规则版本 f55</text>
+<line x1="1050" y1="66" x2="1050" y2="618" stroke="#A32D2D" stroke-width="2.5" stroke-dasharray="6,4"/>
+<rect x="1056" y="70" width="120" height="17" rx="3" fill="#f7f6f1" stroke="#c4ccc0" stroke-width="0.5"/>
+<text x="1062" y="82" font-size="11" fill="#A32D2D">不可逆边界（S12 之后）</text>
+<rect x="162" y="88" width="156" height="48" rx="7" fill="#eef2ef" stroke="#6b8a7e" stroke-width="1"/>
+<circle cx="177" cy="103" r="9" fill="#6b8a7e"/>
+<text x="177" y="107" text-anchor="middle" font-size="11" font-weight="500" fill="#ffffff">E</text>
+<text x="193" y="107" font-size="11.5" font-weight="500" fill="#243430">S01 立项</text>
+<text x="193" y="124" font-size="11" fill="#243430">目标 · 范围 · 22 万</text>
+<rect x="162" y="180" width="156" height="48" rx="7" fill="#EEEDFE" stroke="#534AB7" stroke-width="1"/>
+<circle cx="177" cy="195" r="9" fill="#534AB7"/>
+<text x="177" y="199" text-anchor="middle" font-size="11" font-weight="500" fill="#ffffff">H</text>
+<text x="193" y="199" font-size="11.5" font-weight="500" fill="#26215C">S02 流程定义</text>
+<text x="193" y="216" font-size="11" fill="#26215C">输入输出 · 待办人</text>
+<rect x="342" y="180" width="156" height="48" rx="7" fill="#eef2ef" stroke="#6b8a7e" stroke-width="1"/>
+<circle cx="357" cy="195" r="9" fill="#6b8a7e"/>
+<text x="357" y="199" text-anchor="middle" font-size="11" font-weight="500" fill="#ffffff">E</text>
+<text x="373" y="199" font-size="11.5" font-weight="500" fill="#243430">S03 规则配置</text>
+<text x="373" y="216" font-size="11" fill="#243430">版本 · 优惠优先级</text>
+<polygon points="420,446 502,480 420,514 338,480" fill="#FAEEDA" stroke="#854F0B" stroke-width="1"/>
+<text x="420" y="476" text-anchor="middle" font-size="11.5" font-weight="500" fill="#412402">S04 版本冲突？</text>
+<text x="420" y="494" text-anchor="middle" font-size="11" fill="#412402">附两版本交审计</text>
+<rect x="522" y="180" width="156" height="48" rx="7" fill="#EEEDFE" stroke="#534AB7" stroke-width="1"/>
+<circle cx="537" cy="195" r="9" fill="#534AB7"/>
+<text x="537" y="199" text-anchor="middle" font-size="11" font-weight="500" fill="#ffffff">H</text>
+<text x="553" y="199" font-size="11.5" font-weight="500" fill="#26215C">S05 交接</text>
+<text x="553" y="216" font-size="11" fill="#26215C">五要素 · 接手确认</text>
+<rect x="522" y="272" width="156" height="48" rx="7" fill="#eef2ef" stroke="#6b8a7e" stroke-width="1"/>
+<circle cx="537" cy="287" r="9" fill="#6b8a7e"/>
+<text x="537" y="291" text-anchor="middle" font-size="11" font-weight="500" fill="#ffffff">E</text>
+<text x="553" y="291" font-size="11.5" font-weight="500" fill="#243430">S06 商品报名</text>
+<text x="553" y="308" font-size="11" fill="#243430">约 600 SKU</text>
+<rect x="702" y="364" width="156" height="48" rx="7" fill="#eef2ef" stroke="#6b8a7e" stroke-width="1"/>
+<circle cx="717" cy="379" r="9" fill="#6b8a7e"/>
+<text x="717" y="383" text-anchor="middle" font-size="11" font-weight="500" fill="#ffffff">E</text>
+<text x="733" y="383" font-size="11.5" font-weight="500" fill="#243430">S07 离线试算</text>
+<text x="733" y="400" font-size="11" fill="#243430">只读 · 价格引擎</text>
+<rect x="702" y="272" width="156" height="48" rx="7" fill="#FCEBEB" stroke="#A32D2D" stroke-width="1"/>
+<circle cx="717" cy="287" r="9" fill="#A32D2D"/>
+<text x="717" y="291" text-anchor="middle" font-size="11" font-weight="500" fill="#ffffff">X</text>
+<text x="733" y="291" font-size="11.5" font-weight="500" fill="#501313">S08 规则核对</text>
+<text x="733" y="308" font-size="11" fill="#501313">仅正常购物车</text>
+<rect x="882" y="272" width="156" height="48" rx="7" fill="#FCEBEB" stroke="#A32D2D" stroke-width="1"/>
+<circle cx="897" cy="287" r="9" fill="#A32D2D"/>
+<text x="897" y="291" text-anchor="middle" font-size="11" font-weight="500" fill="#ffffff">X</text>
+<text x="913" y="291" font-size="11.5" font-weight="500" fill="#501313">S09 异常暴露</text>
+<text x="913" y="308" font-size="11" fill="#501313">拆单重算 · 优惠超额</text>
+<polygon points="960,170 1042,204 960,238 878,204" fill="#E1F5EE" stroke="#0F6E56" stroke-width="1"/>
+<text x="960" y="200" text-anchor="middle" font-size="11.5" font-weight="500" fill="#04342C">S10 负应付为零？</text>
+<text x="960" y="218" text-anchor="middle" font-size="11" fill="#04342C">确定性校验</text>
+<polygon points="960,446 1042,480 960,514 878,480" fill="#FAEEDA" stroke="#854F0B" stroke-width="1"/>
+<text x="960" y="476" text-anchor="middle" font-size="11.5" font-weight="500" fill="#412402">S11 授权通过？</text>
+<text x="960" y="494" text-anchor="middle" font-size="11" fill="#412402">可否决上线</text>
+<rect x="882" y="88" width="156" height="48" rx="7" fill="#FCEBEB" stroke="#A32D2D" stroke-width="2"/>
+<circle cx="897" cy="103" r="9" fill="#A32D2D"/>
+<text x="897" y="107" text-anchor="middle" font-size="11" font-weight="500" fill="#ffffff">X</text>
+<text x="913" y="107" font-size="11.5" font-weight="500" fill="#501313">S12 上线放行</text>
+<text x="913" y="124" font-size="11" fill="#501313">不可逆动作</text>
+<polygon points="1140,354 1222,388 1140,422 1058,388" fill="#E1F5EE" stroke="#0F6E56" stroke-width="1"/>
+<text x="1140" y="384" text-anchor="middle" font-size="11.5" font-weight="500" fill="#04342C">S13 数据闸门</text>
+<text x="1140" y="402" text-anchor="middle" font-size="11" fill="#04342C">归集 · 歧义修复</text>
+<rect x="1062" y="88" width="156" height="48" rx="7" fill="#eef2ef" stroke="#6b8a7e" stroke-width="1"/>
+<circle cx="1077" cy="103" r="9" fill="#6b8a7e"/>
+<text x="1077" y="107" text-anchor="middle" font-size="11" font-weight="500" fill="#ffffff">E</text>
+<text x="1093" y="107" font-size="11.5" font-weight="500" fill="#243430">S14 复盘报告</text>
+<text x="1093" y="124" font-size="11" fill="#243430">7 天 · 三口径</text>
+<rect x="1062" y="548" width="156" height="48" rx="7" fill="#EEEDFE" stroke="#534AB7" stroke-width="1"/>
+<circle cx="1077" cy="563" r="9" fill="#534AB7"/>
+<text x="1077" y="567" text-anchor="middle" font-size="11" font-weight="500" fill="#ffffff">H</text>
+<text x="1093" y="567" font-size="11.5" font-weight="500" fill="#26215C">S15 反馈闭环</text>
+<text x="1093" y="584" font-size="11" fill="#26215C">投诉 · 每周复测</text>
+<text x="20" y="656" font-size="12" font-weight="500" fill="#2d654f">图例</text>
+<rect x="22" y="668" width="24" height="16" rx="3" fill="#eef2ef" stroke="#6b8a7e" stroke-width="1"/>
+<text x="52" y="681" font-size="11" fill="#243430">执行点</text>
+<polygon points="224,668 236,676 224,684 212,676" fill="#FAEEDA" stroke="#854F0B" stroke-width="1"/>
+<text x="242" y="681" font-size="11" fill="#243430">判断点 / 校验</text>
+<rect x="402" y="668" width="24" height="16" rx="3" fill="#FCEBEB" stroke="#A32D2D" stroke-width="1"/>
+<text x="432" y="681" font-size="11" fill="#243430">异常 / 不可逆</text>
+<rect x="592" y="668" width="24" height="16" rx="3" fill="#EEEDFE" stroke="#534AB7" stroke-width="1"/>
+<text x="622" y="681" font-size="11" fill="#243430">交接</text>
+<line x1="20" y1="708" x2="46" y2="708" stroke="#7d948b" stroke-width="1.8"/>
+<text x="52" y="712" font-size="11" fill="#243430">实线箭头：主流程与分支条件</text>
+<line x1="320" y1="708" x2="346" y2="708" stroke="#A32D2D" stroke-width="1.8" stroke-dasharray="5,4"/>
+<text x="352" y="712" font-size="11" fill="#243430">红虚线：异常 / 停止 / 否决</text>
+<line x1="620" y1="708" x2="646" y2="708" stroke="#534AB7" stroke-width="1.8" stroke-dasharray="5,4"/>
+<text x="652" y="712" font-size="11" fill="#243430">紫虚线：每周反馈回流</text>
+<line x1="920" y1="708" x2="946" y2="708" stroke="#A32D2D" stroke-width="1.8" stroke-dasharray="6,4"/>
+<text x="952" y="712" font-size="11" fill="#243430">红粗虚线：不可逆边界</text>
+<text x="20" y="740" font-size="11" fill="#6b7d6a">节点按 S01→S15 编号阅读；连线先绘制、节点覆盖其后，故交叉处不会压住文字。各阶段耗时未量出（f01），不标注时间长短。</text>
+</svg>

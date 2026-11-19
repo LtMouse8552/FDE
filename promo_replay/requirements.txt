@@ -1,0 +1,4 @@
+fastapi      # Web 框架（MVP 指定，不替换）
+uvicorn      # FastAPI 的 ASGI 运行器
+pyyaml       # 解析 config.yaml（MVP 指定配置载体）
+pandas       # 离线复算（M1 起使用）
